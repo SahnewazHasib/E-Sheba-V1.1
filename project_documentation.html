@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>E-Sheba — Complete Project Documentation & Conversation Record</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 15mm 20mm 15mm;
+    @bottom-right {
+      content: counter(page);
+    }
+  }
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: #1a202c;
+    line-height: 1.6;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+  }
+  .cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .cover h1 {
+    font-size: 32pt;
+    color: #1a73e8;
+    margin-bottom: 8px;
+    font-weight: 800;
+  }
+  .cover .subtitle {
+    font-size: 16pt;
+    color: #4a5568;
+    margin-bottom: 40px;
+  }
+  .cover .badge {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #1a73e8;
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 11pt;
+    margin-bottom: 50px;
+  }
+  .cover .meta-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: left;
+    font-size: 10.5pt;
+  }
+  .meta-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .meta-box td {
+    padding: 6px 4px;
+  }
+  .meta-box td.label {
+    font-weight: bold;
+    color: #718096;
+    width: 35%;
+  }
+
+  h1, h2, h3, h4 {
+    color: #2d3748;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 16pt;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-size: 13pt;
+    color: #2b6cb0;
+    margin-top: 20px;
+    page-break-after: avoid;
+  }
+  p {
+    margin: 8px 0;
+  }
+  table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 9.5pt;
+  }
+  table.data-table th, table.data-table td {
+    border: 1px solid #cbd5e0;
+    padding: 8px 10px;
+    text-align: left;
+  }
+  table.data-table th {
+    background: #edf2f7;
+    font-weight: 700;
+    color: #2d3748;
+  }
+  table.data-table tr:nth-child(even) {
+    background: #f7fafc;
+  }
+  .code-block {
+    background: #2d3748;
+    color: #f7fafc;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9pt;
+    overflow-x: auto;
+    margin: 12px 0;
+    white-space: pre-wrap;
+  }
+  .alert-box {
+    background: #ebf8ff;
+    border-left: 4px solid #3182ce;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 14px 0;
+    font-size: 10pt;
+  }
+  .alert-box.success {
+    background: #f0fff4;
+    border-color: #38a169;
+  }
+  .alert-box.warning {
+    background: #fffaf0;
+    border-color: #dd6b20;
+  }
+  ul, ol {
+    margin: 8px 0 14px 20px;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+</style>
+</head>
+<body>
+
+<!-- Cover Page -->
+<div class="cover">
+  <div class="badge">SOFTWARE ENGINEERING CAPSTONE PROJECT REPORT</div>
+  <h1>🔧 E-Sheba</h1>
+  <div class="subtitle">On-Demand Local Service Provider Web-Based Application</div>
+  
+  <div class="meta-box">
+    <table>
+      <tr>
+        <td class="label">Course:</td>
+        <td>Software Engineering (CSE 06133248)</td>
+      </tr>
+      <tr>
+        <td class="label">Institution:</td>
+        <td>World University of Bangladesh (WUB)</td>
+      </tr>
+      <tr>
+        <td class="label">Document Ver:</td>
+        <td>v1.0 (Full SRS, Analysis, Codebase & Test Spec)</td>
+      </tr>
+      <tr>
+        <td class="label">Team Members:</td>
+        <td>
+          Sahnewaz Hasib (4264)<br>
+          Fatema Khatun (4276)<br>
+          Khadiza Binte Hasan (4260)<br>
+          Jannatul Bushra (4286)<br>
+          Manir Rahman (4278)
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Status:</td>
+        <td><strong style="color:#2b6cb0;">Fully Implemented & Verified (58+ Files)</strong></td>
+      </tr>
+    </table>
+  </div>
+
+  <div style="margin-top:60px; font-size:9.5pt; color:#a0aec0;">
+    Compiled automatically from Antigravity Agent Session Records · November 2026
+  </div>
+</div>
+
+<!-- Section 1: Executive Summary & Project Purpose -->
+<h2>1. Executive Summary & Project Purpose</h2>
+<p>
+<strong>E-Sheba</strong> is an on-demand, two-sided service marketplace engineered to connect homeowners across Bangladesh with verified blue-collar service providers (plumbers, electricians, appliance technicians, carpenters, cleaners, etc.). 
+</p>
+<p>
+The platform incorporates identity verification using National ID (NID) numbers, recurring monthly subscriptions for providers (৳399/month), location filtering by district and thana, in-app real-time messaging via Pusher WebSockets, masked voice calling via the Agora Web SDK, and payment gateway processing through SSLCommerz (cards, bKash, Nagad, and cash on service). The system is installable as a Progressive Web App (PWA).
+</p>
+
+<!-- Section 2: Team Work Breakdown Structure -->
+<h2>2. Team Work Breakdown Structure (5 Members)</h2>
+<p>The system architecture divides responsibility cleanly among the five team members:</p>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Member / Role</th>
+      <th>Assigned Subsystem</th>
+      <th>Key Deliverables</th>
+      <th>Tech Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Person 1</strong></td>
+      <td>Customer Frontend</td>
+      <td>Landing page (<code>index.php</code>), category browsing, provider search, customer dashboard (<code>customer/dashboard.php</code>), booking modal.</td>
+      <td>HTML5, CSS3, Bootstrap 5, jQuery, Leaflet.js</td>
+    </tr>
+    <tr>
+      <td><strong>Person 2</strong></td>
+      <td>Worker & Admin Frontend</td>
+      <td>Worker profile editor, worker dashboard (<code>worker/dashboard.php</code>), admin back-office (<code>admin/dashboard.php</code>), NID modal inspector.</td>
+      <td>Bootstrap 5, Custom CSS, jQuery</td>
+    </tr>
+    <tr>
+      <td><strong>Person 3</strong></td>
+      <td>Server: Auth & Core Search</td>
+      <td>Unified authentication (<code>login.php</code>, <code>register.php</code>), RBAC session security (<code>includes/auth.php</code>), PDO database wrapper (<code>includes/db.php</code>), search query optimization.</td>
+      <td>PHP 8.x, MySQL 8, Bcrypt, Sessions</td>
+    </tr>
+    <tr>
+      <td><strong>Person 4</strong></td>
+      <td>Server: Payments & Subscriptions</td>
+      <td>SSLCommerz integration (<code>sslcommerz/init.php</code>, <code>success.php</code>, <code>ipn.php</code>), ৳399/mo worker subscription, auto-expiry cron job (<code>cron/expire_subscriptions.php</code>), print invoice.</td>
+      <td>SSLCommerz Sandbox API, cURL, CRON</td>
+    </tr>
+    <tr>
+      <td><strong>Person 5</strong></td>
+      <td>Real-Time Communications & PWA</td>
+      <td>Pusher chat engine (<code>chat.php</code>, <code>api/send-message.php</code>, <code>pusher-auth.php</code>), Agora WebRTC voice calling (<code>api/agora-token.php</code>, <code>js/call.js</code>), PWA manifest & service worker (<code>sw.js</code>).</td>
+      <td>Pusher Channels, Agora RTC SDK, Service Workers</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="page-break"></div>
+
+<!-- Section 3: Architecture & Database Schema -->
+<h2>3. Relational Database Architecture (`esheba_db`)</h2>
+<p>The database consists of 11 normalized tables designed in MySQL 8.x with InnoDB foreign keys and indexes:</p>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Table Name</th>
+      <th>Primary Purpose</th>
+      <th>Key Columns & Constraints</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>users</code></td>
+      <td>Unified account storage for customers, workers, and administrators.</td>
+      <td><code>id (PK)</code>, <code>email (UQ)</code>, <code>password_hash</code>, <code>role (customer, worker, admin)</code>, <code>email_verified</code>.</td>
+    </tr>
+    <tr>
+      <td><code>workers</code></td>
+      <td>Extended professional profile for service providers.</td>
+      <td><code>id (PK)</code>, <code>user_id (FK)</code>, <code>nid_number</code>, <code>nid_image_path</code>, <code>price_per_hour</code>, <code>district</code>, <code>thana</code>, <code>is_approved</code>, <code>is_visible</code>, <code>avg_rating</code>.</td>
+    </tr>
+    <tr>
+      <td><code>categories</code></td>
+      <td>Seed catalog of 25 verified trade categories.</td>
+      <td><code>id (PK)</code>, <code>name (UQ)</code>, <code>icon (FontAwesome)</code>, <code>is_active</code>, <code>sort_order</code>.</td>
+    </tr>
+    <tr>
+      <td><code>worker_categories</code></td>
+      <td>Many-to-many junction between service providers and categories.</td>
+      <td><code>(worker_id, category_id) PK/FK</code>.</td>
+    </tr>
+    <tr>
+      <td><code>subscriptions</code></td>
+      <td>Tracks ৳399/month recurring provider visibility payments.</td>
+      <td><code>id (PK)</code>, <code>worker_id (FK)</code>, <code>amount (399.00)</code>, <code>status (pending, active, expired)</code>, <code>transaction_id</code>, <code>starts_at</code>, <code>expires_at</code>.</td>
+    </tr>
+    <tr>
+      <td><code>bookings</code></td>
+      <td>Service booking appointments placed by customers.</td>
+      <td><code>id (PK)</code>, <code>customer_id (FK)</code>, <code>worker_id (FK)</code>, <code>status (pending, accepted, in_progress, completed, cancelled)</code>, <code>pay_method</code>, <code>pay_status</code>.</td>
+    </tr>
+    <tr>
+      <td><code>reviews</code></td>
+      <td>Post-service customer feedback & star ratings.</td>
+      <td><code>id (PK)</code>, <code>booking_id (UQ/FK)</code>, <code>worker_id (FK)</code>, <code>rating (1-5)</code>, <code>comment</code>.</td>
+    </tr>
+    <tr>
+      <td><code>messages</code></td>
+      <td>Chat communication history between customer and worker.</td>
+      <td><code>id (PK)</code>, <code>sender_id (FK)</code>, <code>receiver_id (FK)</code>, <code>body</code>, <code>is_read</code>, <code>created_at</code>.</td>
+    </tr>
+    <tr>
+      <td><code>call_logs</code></td>
+      <td>Record of masked WebRTC audio calls via Agora.</td>
+      <td><code>id (PK)</code>, <code>caller_id (FK)</code>, <code>callee_id (FK)</code>, <code>channel</code>, <code>duration_sec</code>, <code>status</code>.</td>
+    </tr>
+    <tr>
+      <td><code>notifications</code></td>
+      <td>In-app alerts for bookings, payments, reviews, and approvals.</td>
+      <td><code>id (PK)</code>, <code>user_id (FK)</code>, <code>type</code>, <code>title</code>, <code>body</code>, <code>is_read</code>.</td>
+    </tr>
+    <tr>
+      <td><code>otp_tokens</code></td>
+      <td>Secure 6-digit verification codes for registration and password reset.</td>
+      <td><code>id (PK)</code>, <code>user_id (FK)</code>, <code>token (hashed)</code>, <code>expires_at</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Section 4: Implementation Audit & Newly Created Modules -->
+<h2>4. Implementation Audit & Delivered Modules</h2>
+<p>
+To fulfill the SRS requirements while keeping your original codebase intact, the following modules were developed and integrated:
+</p>
+
+<h3>A. Customer Portal & Service Execution (`customer/dashboard.php`)</h3>
+<ul>
+  <li>Full metrics overview: Total Bookings, Active Services, Completed Jobs, Total Spent (৳ BDT).</li>
+  <li>Tabbed booking view: Pending, Active, Completed, and Cancelled.</li>
+  <li>Integrated actions: Chat via Pusher, masked voice call via Agora, Pay via SSLCommerz, and Rate/Review with an interactive 5-star modal.</li>
+</ul>
+
+<h3>B. Public Provider Portfolio (`worker-profile.php`)</h3>
+<ul>
+  <li>Displays provider photo, verified badge, hourly rates, service categories, and experience.</li>
+  <li><strong>Leaflet.js Coverage Map</strong> with interactive coordinate pin showing local thana coverage.</li>
+  <li><strong>"Book Service" Modal</strong>: Allows customers to schedule an appointment date/time, provide an address, write problem notes, and select payment method (Cash vs. SSLCommerz).</li>
+</ul>
+
+<h3>C. SSLCommerz Payment Gateway Suite (`sslcommerz/`)</h3>
+<ul>
+  <li><code>sslcommerz/init.php</code>: Initializes transactions for subscriptions (৳399) or customer bookings. Includes an interactive Sandbox Simulator for smooth offline/academic demonstrations.</li>
+  <li><code>sslcommerz/success.php</code>: Performs server-side validation, activates 30-day worker subscriptions, sets <code>is_visible = 1</code>, and marks bookings as paid.</li>
+  <li><code>sslcommerz/ipn.php</code>: Server-to-server webhook ensuring subscriptions and bookings activate even if the user closes their browser window prematurely.</li>
+  <li><code>cron/expire_subscriptions.php</code>: Daily scheduled task hiding expired workers automatically.</li>
+</ul>
+
+<h3>D. Real-Time Gmail Verification (`verify-email.php`)</h3>
+<ul>
+  <li>6-digit auto-advancing OTP interface with paste and countdown timer support.</li>
+  <li>Resilient mailer with local session logging fallback so offline presentations never crash.</li>
+</ul>
+
+<h3>E. Printable Invoice & Receipt Engine (`invoice.php`)</h3>
+<ul>
+  <li>Print-ready A4 stylesheet with World University of Bangladesh project header, itemized breakdown, and SSLCommerz transaction details.</li>
+</ul>
+
+<div class="page-break"></div>
+
+<!-- Section 5: Step-by-Step Local Testing Guide -->
+<h2>5. Step-by-Step Local Testing Guide</h2>
+
+<div class="alert-box success">
+  <strong>Quick Verification Summary:</strong> All 58 files are ready in <code>C:\xampp\htdocs\e-sheba\</code>. The database is initialized via <code>schema.sql</code> and populated via <code>seeds.sql</code>.
+</div>
+
+<ol>
+  <li>
+    <strong>Install XAMPP:</strong> Ensure Apache and MySQL are running in the XAMPP Control Panel.
+  </li>
+  <li>
+    <strong>Database Setup:</strong>
+    <ul>
+      <li>Open <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a>.</li>
+      <li>Create database <code>esheba_db</code> (Collation: <code>utf8mb4_unicode_ci</code>).</li>
+      <li>Import <code>schema.sql</code>, followed by <code>seeds.sql</code>.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Test Logins (Seed Accounts):</strong>
+    <ul>
+      <li><strong>Admin:</strong> <code>admin@e-sheba.com</code> / <code>Admin@1234</code> $ightarrow$ <code>http://localhost/e-sheba/admin/dashboard.php</code></li>
+      <li><strong>Customer:</strong> <code>rahim@gmail.com</code> / <code>password123</code> $ightarrow$ <code>http://localhost/e-sheba/customer/dashboard.php</code></li>
+      <li><strong>Worker (Electrician):</strong> <code>kabir.electric@gmail.com</code> / <code>password123</code> $ightarrow$ <code>http://localhost/e-sheba/worker/dashboard.php</code></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Test Provider Search:</strong> Open <code>http://localhost/e-sheba/workers.php</code>. Filter by <em>Electrician</em> in <em>Dhaka</em>. Kabir Hossain will appear with an active subscription badge.
+  </li>
+  <li>
+    <strong>Test Booking & Invoicing:</strong> Book Kabir Hossain $ightarrow$ log into worker dashboard $ightarrow$ click <em>Accept</em> $ightarrow$ click <em>Complete</em> $ightarrow$ customer downloads official invoice at <code>invoice.php?booking_id=1</code>.
+  </li>
+</ol>
+
+<!-- Section 6: Viva / Academic Defense Q&A -->
+<h2>6. Academic Defense & Viva Q&A Guide</h2>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th style="width:35%">Likely Examiner Question</th>
+      <th>Recommended Technical Answer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>"How is phone number masking accomplished?"</strong></td>
+      <td><em>"We integrated the Agora Web SDK. Both parties join an encrypted dynamic WebRTC audio channel generated on the fly (<code>esheba-call-{minID}-{maxID}</code>). Voice streams peer-to-peer over WebRTC, keeping cellular phone numbers private."</em></td>
+    </tr>
+    <tr>
+      <td><strong>"What happens if the browser closes during an SSLCommerz payment?"</strong></td>
+      <td><em>"We implemented an Instant Payment Notification (<code>sslcommerz/ipn.php</code>) server-to-server webhook. SSLCommerz calls our IPN listener asynchronously to validate the transaction, updating the database even if the browser session drops."</em></td>
+    </tr>
+    <tr>
+      <td><strong>"How is NID verification securely audited?"</strong></td>
+      <td><em>"Workers upload a photo of their National ID during registration into <code>uploads/nid/</code>. The Admin Back-Office provides an 'Inspect NID Document' modal where internal staff review the physical ID before toggling <code>is_approved = 1</code>."</em></td>
+    </tr>
+    <tr>
+      <td><strong>"How are SQL Injection and Session Hijacking prevented?"</strong></td>
+      <td><em>"We enforce PDO prepared statements with <code>ATTR_EMULATE_PREPARES => false</code> across all database queries. For session protection, we call <code>session_regenerate_id(true)</code> on login, enforce CSRF tokens with <code>hash_equals()</code>, and store passwords with Bcrypt via <code>password_hash()</code>."</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Section 7: Checkpoint & Resume State -->
+<h2>7. Checkpoint: How to Continue from Here</h2>
+<p>
+The core prototype is 100% complete and self-contained. When you are ready for the next phase, here are natural directions you can instruct:
+</p>
+<ul>
+  <li><strong>Feature Extension:</strong> Add live Bengali (বাংলা) language toggling across key customer views.</li>
+  <li><strong>Deployment Preparation:</strong> Step-by-step guidance for hosting on a VPS or shared cPanel server (Namecheap, cPanel, or VPS) with live SSLCommerz production keys.</li>
+  <li><strong>Slide Deck / Presentation Prep:</strong> Generate PowerPoint slide outlines and demonstration scripts for your final defense.</li>
+</ul>
+
+<div style="margin-top:40px; padding:16px; background:#edf2f7; border-radius:8px; text-align:center; font-size:9.5pt; color:#4a5568;">
+  <strong>Project Workspace Path:</strong> <code>C:\Users\User\.gemini\antigravity\scratch\e-sheba\</code><br>
+  Generated by Antigravity AI Assistant · All rights reserved · World University of Bangladesh (WUB)
+</div>
+
+</body>
+</html>

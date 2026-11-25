@@ -1,0 +1,1323 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3273 >>
+stream
+0.950 0.970 1.000 rg
+0.102 0.451 0.910 RG
+40.00 480.00 515.28 280.00 re B
+BT
+/F2 13 Tf
+0.102 0.451 0.910 rg
+60.00 720.00 Td
+(WORLD UNIVERSITY OF BANGLADESH \(WUB\)) Tj
+ET
+BT
+/F1 10.5 Tf
+0.300 0.300 0.300 rg
+60.00 700.00 Td
+(Department of Computer Science and Engineering) Tj
+ET
+BT
+/F1 10 Tf
+0.400 0.400 0.400 rg
+60.00 685.00 Td
+(Course: Software Engineering \(CSE 06133248\)) Tj
+ET
+BT
+/F2 18 Tf
+0.100 0.200 0.300 rg
+60.00 635.00 Td
+(E-Sheba: Service Provider Web Platform) Tj
+ET
+BT
+/F1 10.5 Tf
+0.300 0.300 0.300 rg
+60.00 615.00 Td
+(Complete Software Requirements Specification \(SRS\),) Tj
+ET
+BT
+/F1 10.5 Tf
+0.300 0.300 0.300 rg
+60.00 600.00 Td
+(System Architecture, Implementation & Verification Report) Tj
+ET
+BT
+/F2 9 Tf
+0.102 0.451 0.910 rg
+60.00 560.00 Td
+(DOCUMENT VERSION: 1.0  |  DATE: October 2026) Tj
+ET
+BT
+/F2 9 Tf
+0.150 0.600 0.250 rg
+60.00 545.00 Td
+(STATUS: Full System Implemented & Test Ready \(58+ Application Files\)) Tj
+ET
+0.960 0.980 1.000 rg
+0.750 0.840 0.950 RG
+40.00 706.89 515.28 90.00 re B
+BT
+/F2 9.5 Tf
+0.100 0.350 0.750 rg
+50.00 782.89 Td
+(PROJECT AUTHORS & STUDENT ROLES) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 768.89 Td
+(1. Sahnewaz Hasib \(ID: 4264\) - Person 1: Customer Frontend & Marketplace UI) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 754.89 Td
+(2. Fatema Khatun \(ID: 4276\) - Person 2: Worker & Admin Back-Office Interfaces) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 740.89 Td
+(3. Khadiza Binte Hasan \(ID: 4260\) - Person 3: Server Core, Session Security & Search Queries) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 726.89 Td
+(4. Jannatul Bushra \(ID: 4286\) - Person 4: Payment Gateway, BDT 399 Subscription & CRON) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 712.89 Td
+(5. Manir Rahman \(ID: 4278\) - Person 5: Pusher Messaging, Agora Voice RTC & PWA) Tj
+ET
+0.102 0.451 0.910 rg
+40.00 428.00 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 438.00 Td
+(1. Executive Summary & Purpose) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 410.00 Td
+(E-Sheba is a full-stack, two-sided web marketplace connecting Bangladeshi households with verified) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 397.00 Td
+(blue-collar service professionals \(electricians, plumbers, appliance technicians, cleaners, etc.\). The) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 384.00 Td
+(platform addresses key issues of informal contracting: identity verification via National ID \(NID\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 371.00 Td
+(transparent hourly pricing, masked real-time calling to preserve user privacy, and automated provider) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 358.00 Td
+(subscriptions \(BDT 399/month\) via SSLCommerz.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 342.00 Td
+(This document consolidates the complete software engineering life-cycle: SRS requirements, team work) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 329.00 Td
+(breakdown, relational database models, delivered code modules, step-by-step local testing instructions, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 316.00 Td
+(academic defense notes.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.55 0.55 0.55 rg
+40.00 25 Td
+(E-Sheba Specification & Documentation Report  |  World University of Bangladesh  |  Page 1 of 5) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Length 7071 >>
+stream
+0.102 0.451 0.910 rg
+40.00 784.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 794.89 Td
+(2. Team Work Breakdown Structure \(5 Members\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 766.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 766.89 Td
+(Person 1 \(Customer Frontend\): Homepage, category browsing, provider search, customer dashboard) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 753.89 Td
+(\(customer/dashboard.php\), booking modal, and review interfaces.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 740.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 740.89 Td
+(Person 2 \(Worker & Admin Frontend\): Worker profile editor, worker dashboard \(worker/dashboard.php\), admin) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 727.89 Td
+(approval queue, and NID card modal inspector.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 714.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 714.89 Td
+(Person 3 \(Server Core & Search\): Bcrypt password security, session RBAC \(includes/auth.php\), PDO database) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 701.89 Td
+(connection singleton, category search SQL optimization.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 688.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 688.89 Td
+(Person 4 \(Payment & Subscriptions\): SSLCommerz sandbox API integration \(sslcommerz/init.php, success.php\),) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 675.89 Td
+(IPN webhook listener, BDT 399 renewal, auto-expiry CRON job.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 662.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 662.89 Td
+(Person 5 \(Real-Time Messaging & Calling\): Pusher WebSocket chat engine \(chat.php, pusher-auth.php\), Agora) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 649.89 Td
+(WebRTC voice calling \(api/agora-token.php, js/call.js\), PWA manifest & service worker.) Tj
+ET
+0.102 0.451 0.910 rg
+40.00 614.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 624.89 Td
+(3. Relational Database Specification \(esheba_db\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 596.89 Td
+(The database comprises 11 normalized tables with foreign keys and cascade delete rules:) Tj
+ET
+0.920 0.940 0.980 rg
+0.780 0.820 0.900 RG
+40.00 564.89 515.00 16.00 re B
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+44.00 568.89 Td
+(Table) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+129.00 568.89 Td
+(Primary Key) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+209.00 568.89 Td
+(Foreign Keys) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+294.00 568.89 Td
+(Key Fields & Constraints) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 548.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 552.89 Td
+(users) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 552.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 552.89 Td
+(-) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 552.89 Td
+(name, email \(UQ\), phone, password_hash, role, email_ver) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 532.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 536.89 Td
+(workers) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 536.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 536.89 Td
+(user_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 536.89 Td
+(nid_number, nid_image_path, price_per_hour, district, t) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 516.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 520.89 Td
+(categories) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 520.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 520.89 Td
+(-) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 520.89 Td
+(name \(UQ\), icon \(FontAwesome\), is_active, sort_order \(2) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 500.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 504.89 Td
+(worker_categories) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 504.89 Td
+(worker_id, cat_i) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 504.89 Td
+(worker_id, cat_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 504.89 Td
+(Many-to-many relationship between workers and trade cat) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 484.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 488.89 Td
+(subscriptions) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 488.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 488.89 Td
+(worker_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 488.89 Td
+(amount \(399\), status \(active/expired\), transaction_id, ) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 468.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 472.89 Td
+(bookings) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 472.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 472.89 Td
+(cust_id, work_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 472.89 Td
+(status \(pending/accepted/completed\), total_amount, pay_) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 452.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 456.89 Td
+(reviews) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 456.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 456.89 Td
+(booking_id \(UQ\)) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 456.89 Td
+(worker_id, customer_id, rating \(1-5\), comment, created_) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 436.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 440.89 Td
+(messages) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 440.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 440.89 Td
+(sender, receiver) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 440.89 Td
+(body \(TEXT\), is_read, created_at \(Indexed for conversat) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 420.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 424.89 Td
+(call_logs) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 424.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 424.89 Td
+(caller, callee) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 424.89 Td
+(channel \(Agora room\), started_at, ended_at, duration_se) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 404.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 408.89 Td
+(notifications) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 408.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 408.89 Td
+(user_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 408.89 Td
+(type, title, body, is_read, created_at) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 388.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 392.89 Td
+(otp_tokens) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+129.00 392.89 Td
+(id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+209.00 392.89 Td
+(user_id) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+294.00 392.89 Td
+(token \(Bcrypt hash\), type \(email_verify\), expires_at) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.55 0.55 0.55 rg
+40.00 25 Td
+(E-Sheba Specification & Documentation Report  |  World University of Bangladesh  |  Page 2 of 5) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+10 0 obj
+<< /Length 3408 >>
+stream
+0.102 0.451 0.910 rg
+40.00 784.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 794.89 Td
+(4. Delivered Software Modules & Architecture) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 766.89 Td
+(A total of 58 files now form the complete application. Key delivered modules include:) Tj
+ET
+0.960 0.980 1.000 rg
+0.750 0.840 0.950 RG
+40.00 674.89 515.28 76.00 re B
+BT
+/F2 9.5 Tf
+0.100 0.350 0.750 rg
+50.00 736.89 Td
+(A. Customer Portal & Service Lifecycle) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 722.89 Td
+(- customer/dashboard.php: Customer metrics, booking cards, real-time message/call action links.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 708.89 Td
+(- worker-profile.php: Public provider landing page with interactive Leaflet.js coverage map and review feeds.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 694.89 Td
+(- api/book-worker.php: Booking request processor with real-time notification dispatch.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 680.89 Td
+(- api/submit-review.php: Customer 5-star rating submission with dynamic worker average rating recalculation.) Tj
+ET
+0.960 0.980 1.000 rg
+0.750 0.840 0.950 RG
+40.00 576.89 515.28 90.00 re B
+BT
+/F2 9.5 Tf
+0.100 0.350 0.750 rg
+50.00 652.89 Td
+(B. SSLCommerz Payment & Subscription Engine) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 638.89 Td
+(- subscription.php & worker/subscription.php: BDT 399/mo plan overview, countdown timer, transaction table.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 624.89 Td
+(- sslcommerz/init.php: Initiates payment with SSLCommerz sandbox; includes fallback sandbox simulator.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 610.89 Td
+(- sslcommerz/success.php: Validates transaction, activates 30-day subscription, marks worker visible.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 596.89 Td
+(- sslcommerz/ipn.php: Asynchronous webhook listener ensuring activation even if client tab is closed.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 582.89 Td
+(- cron/expire_subscriptions.php: Scheduled CLI job auto-hiding workers when 30 days elapse.) Tj
+ET
+0.960 0.980 1.000 rg
+0.750 0.840 0.950 RG
+40.00 506.89 515.28 62.00 re B
+BT
+/F2 9.5 Tf
+0.100 0.350 0.750 rg
+50.00 554.89 Td
+(C. Identity Verification, Safety & Document Inspection) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 540.89 Td
+(- register.php: Upgraded with multipart/form-data upload for physical NID card photos into uploads/nid/.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 526.89 Td
+(- admin/dashboard.php: Integrated with 'Inspect NID Document' modal allowing admin review before approval.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 512.89 Td
+(- verify-email.php: 6-digit auto-advancing OTP verification with countdown timer and fallback mailer.) Tj
+ET
+0.960 0.980 1.000 rg
+0.750 0.840 0.950 RG
+40.00 450.89 515.28 48.00 re B
+BT
+/F2 9.5 Tf
+0.100 0.350 0.750 rg
+50.00 484.89 Td
+(D. Official Billing & Compliance Deliverables) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 470.89 Td
+(- invoice.php: Official print-ready invoice template with WUB header, itemized fees, and transaction IDs.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.250 0.300 0.350 rg
+50.00 456.89 Td
+(- categories.php: Directory of 25 active categories with live counts of available providers.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.55 0.55 0.55 rg
+40.00 25 Td
+(E-Sheba Specification & Documentation Report  |  World University of Bangladesh  |  Page 3 of 5) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+12 0 obj
+<< /Length 5847 >>
+stream
+0.102 0.451 0.910 rg
+40.00 784.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 794.89 Td
+(5. Step-by-Step Local Testing Instructions) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 766.89 Td
+(To test the application locally on Windows using XAMPP:) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 750.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 750.89 Td
+(Step 1: Environment Setup: Install XAMPP with PHP 8.x and MySQL. Start Apache and MySQL from XAMPP Control) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 737.89 Td
+(Panel.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 724.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 724.89 Td
+(Step 2: Project Deployment: Copy the e-sheba folder to C:\\xampp\\htdocs\\e-sheba\\.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 711.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 711.89 Td
+(Step 3: Database Import: In phpMyAdmin \(http://localhost/phpmyadmin\), create database esheba_db. Import) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 698.89 Td
+(schema.sql, then seeds.sql.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 685.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 685.89 Td
+(Step 4: Configuration: Verify includes/config.php matches: DB_USER='root', DB_PASS='',) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 672.89 Td
+(APP_URL='http://localhost/e-sheba'.) Tj
+ET
+BT
+/F2 11.5 Tf
+0.150 0.350 0.650 rg
+40.00 643.89 Td
+(Pre-Seeded Demonstration Accounts \(seeds.sql\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 627.89 Td
+(All pre-seeded accounts use the universal password: password123) Tj
+ET
+0.920 0.940 0.980 rg
+0.780 0.820 0.900 RG
+40.00 595.89 515.00 16.00 re B
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+44.00 599.89 Td
+(Role) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+104.00 599.89 Td
+(Name) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+199.00 599.89 Td
+(Email Address) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+339.00 599.89 Td
+(Profile Highlights) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 579.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 583.89 Td
+(Admin) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 583.89 Td
+(Administrator) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 583.89 Td
+(admin@e-sheba.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 583.89 Td
+(Default password: Admin@1234 \(Has complete ba) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 563.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 567.89 Td
+(Customer) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 567.89 Td
+(Rahim Ahmed) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 567.89 Td
+(rahim@gmail.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 567.89 Td
+(Has 1 completed booking, 1 accepted booking, ) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 547.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 551.89 Td
+(Worker 1) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 551.89 Td
+(Kabir Hossain) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 551.89 Td
+(kabir.electric@gmail.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 551.89 Td
+(Electrician in Mirpur, Dhaka ∑ 400 BDT/hr ∑ 4) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 531.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 535.89 Td
+(Worker 2) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 535.89 Td
+(Mizanur Rahman) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 535.89 Td
+(mizan.plumber@gmail.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 535.89 Td
+(Plumber in Dhanmondi, Dhaka ∑ 350 BDT/hr ∑ 4.) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 515.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 519.89 Td
+(Worker 3) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 519.89 Td
+(Sabbir Ahmed) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 519.89 Td
+(sabbir.ac@gmail.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 519.89 Td
+(AC Repair in Uttara, Dhaka ∑ 600 BDT/hr ∑ 5.0) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 499.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 503.89 Td
+(Worker 4) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+104.00 503.89 Td
+(Tanvir Hasan) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+199.00 503.89 Td
+(tanvir.carpenter@gmail.com) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+339.00 503.89 Td
+(Carpenter in Chittagong ∑ 450 BDT/hr ∑ 4.7 Ra) Tj
+ET
+BT
+/F2 11.5 Tf
+0.150 0.350 0.650 rg
+40.00 485.89 Td
+(Key Testing Flows to Execute:) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 469.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 469.89 Td
+(Flow A: Customer Booking: Browse workers.php -> Select Kabir Hossain -> Click 'Book This Provider' -> Set) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 456.89 Td
+(time & Mirpur address -> Confirm.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 443.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 443.89 Td
+(Flow B: Worker Job Cycle: Login as Kabir -> Accept booking -> Click 'Start' -> Click 'Complete' -> Check) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 430.89 Td
+(updated earnings.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 417.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 417.89 Td
+(Flow C: Payment & Review: Customer opens customer/dashboard.php -> Click 'Rate & Review' -> Submit 5 stars ->) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 404.89 Td
+(Worker rating recalculates.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 391.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 391.89 Td
+(Flow D: Official Invoice: Click 'Invoice' button on completed booking -> Print-ready A4 official invoice) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 378.89 Td
+(renders.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.55 0.55 0.55 rg
+40.00 25 Td
+(E-Sheba Specification & Documentation Report  |  World University of Bangladesh  |  Page 4 of 5) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+14 0 obj
+<< /Length 2728 >>
+stream
+0.102 0.451 0.910 rg
+40.00 784.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 794.89 Td
+(6. Viva & Academic Defense Q&A Guide) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 766.89 Td
+(Key technical questions university evaluators ask and recommended answers:) Tj
+ET
+0.920 0.940 0.980 rg
+0.780 0.820 0.900 RG
+40.00 734.89 515.00 16.00 re B
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+44.00 738.89 Td
+(Likely Professor Question) Tj
+ET
+BT
+/F2 8.5 Tf
+0.100 0.200 0.350 rg
+214.00 738.89 Td
+(Recommended Technical Answer) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 718.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 722.89 Td
+(How did you implement phone number ) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+214.00 722.89 Td
+(We integrated the Agora Web SDK with token-based signaling. Both users ) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 702.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 706.89 Td
+(What happens if the browser closes ) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+214.00 706.89 Td
+(We built an Instant Payment Notification \(sslcommerz/ipn.php\) webhook. ) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.880 0.920 RG
+40.00 686.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 690.89 Td
+(How is NID verification audited by ) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+214.00 690.89 Td
+(Workers upload their National ID card photo during registration into up) Tj
+ET
+0.980 0.990 1.000 rg
+0.850 0.880 0.920 RG
+40.00 670.89 515.00 16.00 re B
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+44.00 674.89 Td
+(How are SQL Injection and Session H) Tj
+ET
+BT
+/F1 8.0 Tf
+0.200 0.200 0.200 rg
+214.00 674.89 Td
+(We enforce PDO prepared statements with ATTR_EMULATE_PREPARES=false acr) Tj
+ET
+0.102 0.451 0.910 rg
+40.00 640.89 515.28 2.00 re f
+BT
+/F2 14 Tf
+0.102 0.451 0.910 rg
+40.00 650.89 Td
+(7. Checkpoint: How to Continue from Here) Tj
+ET
+BT
+/F1 9.5 Tf
+0.200 0.200 0.200 rg
+40.00 622.89 Td
+(The E-Sheba prototype is 100% complete, fully verified, and ready for deployment or academic demonstration.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 606.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 606.89 Td
+(Workspace Path: C:\\Users\\User\\.gemini\\antigravity\\scratch\\e-sheba\\) Tj
+ET
+BT
+/F2 9.5 Tf
+0.102 0.451 0.910 rg
+44.00 593.89 Td
+(-) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 593.89 Td
+(Next Action Suggestions: 1\) Live VPS deployment guide \(cPanel/Ubuntu\), 2\) Bilingual English/Bangla language) Tj
+ET
+BT
+/F1 9.0 Tf
+0.220 0.220 0.220 rg
+54.00 580.89 Td
+(switcher, 3\) Final viva slide deck generation.) Tj
+ET
+
+BT
+/F1 7.5 Tf
+0.55 0.55 0.55 rg
+40.00 25 Td
+(E-Sheba Specification & Documentation Report  |  World University of Bangladesh  |  Page 5 of 5) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000149 00000 n 
+0000000246 00000 n 
+0000000348 00000 n 
+0000000443 00000 n 
+0000003767 00000 n 
+0000003919 00000 n 
+0000011041 00000 n 
+0000011193 00000 n 
+0000014653 00000 n 
+0000014806 00000 n 
+0000020705 00000 n 
+0000020859 00000 n 
+0000023639 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+23793
+%%EOF
