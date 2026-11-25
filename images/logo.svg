@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A73E8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB703"/>
+      <stop offset="100%" stop-color="#FB8500"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1A73E8" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Icon Mark with Shadow -->
+  <g filter="url(#shadow)">
+    <!-- Rounded Shield / Hexagon Base -->
+    <rect x="8" y="8" width="56" height="56" rx="16" fill="url(#primaryGrad)"/>
+    
+    <!-- Decorative Corner Glow -->
+    <path d="M8 24C8 15.1634 15.1634 8 24 8H36L8 36V24Z" fill="white" fill-opacity="0.15"/>
+    
+    <!-- Stylized Wrench / Gear Vector in Center -->
+    <path d="M42 22C38.6863 18.6863 33.3137 18.6863 30 22C28.2 23.8 27.5 26.2 27.8 28.6L21.4 35C20.6 35.8 20.6 37.1 21.4 37.9L24.1 40.6C24.9 41.4 26.2 41.4 27 40.6L33.4 34.2C35.8 34.5 38.2 33.8 40 32C43.3137 28.6863 43.3137 23.3137 42 22ZM37.5 28C36.6716 28 36 27.3284 36 26.5C36 25.6716 36.6716 25 37.5 25C38.3284 25 39 25.6716 39 26.5C39 27.3284 38.3284 28 37.5 28Z" fill="white"/>
+    
+    <!-- Lightning Bolt / Energy Badge -->
+    <path d="M44 32L36 44H42L40 52L50 39H44L47 32H44Z" fill="url(#accentGrad)"/>
+    
+    <!-- Micro Sparkle -->
+    <circle cx="50" cy="18" r="2.5" fill="#FFD166"/>
+  </g>
+
+  <!-- Typography -->
+  <!-- Brand Name -->
+  <text x="76" y="44" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="28" fill="#0F172A" letter-spacing="-0.5">
+    E-Sheba
+  </text>
+  
+  <!-- Accent Dot -->
+  <circle cx="198" cy="40" r="4.5" fill="#FB8500"/>
+
+  <!-- Subtitle Tagline Pill -->
+  <rect x="76" y="50" width="138" height="15" rx="4" fill="#EFF6FF"/>
+  <text x="82" y="61" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="9" fill="#2563EB" letter-spacing="1">
+    BANGLADESH • ই-সেবা
+  </text>
+</svg>

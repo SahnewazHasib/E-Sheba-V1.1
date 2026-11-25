@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none">
+  <defs>
+    <linearGradient id="primaryGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accentGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#FB8500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Mark -->
+  <rect x="8" y="8" width="56" height="56" rx="16" fill="url(#primaryGradW)"/>
+  <path d="M8 24C8 15.1634 15.1634 8 24 8H36L8 36V24Z" fill="white" fill-opacity="0.2"/>
+  
+  <path d="M42 22C38.6863 18.6863 33.3137 18.6863 30 22C28.2 23.8 27.5 26.2 27.8 28.6L21.4 35C20.6 35.8 20.6 37.1 21.4 37.9L24.1 40.6C24.9 41.4 26.2 41.4 27 40.6L33.4 34.2C35.8 34.5 38.2 33.8 40 32C43.3137 28.6863 43.3137 23.3137 42 22ZM37.5 28C36.6716 28 36 27.3284 36 26.5C36 25.6716 36.6716 25 37.5 25C38.3284 25 39 25.6716 39 26.5C39 27.3284 38.3284 28 37.5 28Z" fill="white"/>
+  
+  <path d="M44 32L36 44H42L40 52L50 39H44L47 32H44Z" fill="url(#accentGradW)"/>
+  <circle cx="50" cy="18" r="2.5" fill="#FFE494"/>
+
+  <!-- Typography -->
+  <text x="76" y="44" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="-0.5">
+    E-Sheba
+  </text>
+  <circle cx="198" cy="40" r="4.5" fill="#FB8500"/>
+
+  <rect x="76" y="50" width="138" height="15" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="82" y="61" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="9" fill="#93C5FD" letter-spacing="1">
+    BANGLADESH • ই-সেবা
+  </text>
+</svg>
